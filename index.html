@@ -2,7 +2,10 @@
 <html>
 <body>
     <img/>
-<h1>NFTcam!</h1>
+<h1>NFTcam! save to an NFT. </h1>
+<a>
+<div id="ipfs"></div>
+</a>
 <hr>
 <video autoplay></video>
 <canvas style="display:none;"></canvas>
@@ -12,11 +15,10 @@
 <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/ipfs/dist/index.min.js"></script>
 <script type="text/javascript">
-    Ipfs.create().then((ipfs) => {
-        window.ipfs = ipfs;
-        console.log(ipfs)
-    }
-
+    Ipfs.create().then(
+        (ipfs) => {
+           window.ipfs = ipfs;
+        }
     )
 </script>
 <script src="./js/main.js"></script>
