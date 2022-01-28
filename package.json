@@ -1,0 +1,13 @@
+{
+  "name": "nft-camera",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "Ming-der Wnag <mingderwang@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
